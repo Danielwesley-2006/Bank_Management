@@ -468,7 +468,7 @@ void userInterface(vector<BankAccount*>& accounts, int& accountNumber) {
                 break;
             }
             case 5:
-                cout << "Vakey !!\nExiting User Interface.\n";
+                cout << "OK !!\nExiting User Interface.\n";
                 return;
             default:
                 cout << "Invalid choice. Please try again.\n";
@@ -557,7 +557,7 @@ void bankerInterface(vector<BankAccount*>& accounts, int& accountNumber) {
             break; 
             }
             case 7:{
-                cout << "Vakey!!\nExiting the interface.\n";
+                cout << "OK !!\nExiting the interface.\n";
                 return;
             }
             default:
